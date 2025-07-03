@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, #4CAF50, #87CEEB);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+  transition: background-position 0.5s ease-out;
+}
+
+.hero-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-weight: bold;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
